@@ -284,6 +284,11 @@ body::before {
   margin: 0 auto;
 }
 
+/* Reviews (Elfsight widget) */
+.reviews {
+  width: 100%;
+}
+
 /* Local */
 .local {
   text-align: center;

@@ -15,7 +15,7 @@ export const DESCRIPTION = [
   'Laptops, tablets, phones and accessories -> every product is carefully inspected before it is sold, and we help you find the best device per dollar for your needs.',
 ]
 
-export const HIGHLIGHTS = ['Warranty on all products', 'Local Delivery', 'Thousands of happy customers']
+export const HIGHLIGHTS = ['Warranty on all products', 'Local Delivery', 'Hundreds of happy customers']
 
 export const SERVICES = ['Laptop repair', 'Antivirus & software', 'Upgrades', 'Prepaid plans from $10/mo']
 

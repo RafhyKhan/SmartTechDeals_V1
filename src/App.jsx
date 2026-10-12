@@ -63,9 +63,13 @@ export default function App() {
         <Slideshow slides={PRODUCT_SLIDES} interval={SLIDE_INTERVAL_MS} className="square" />
       </section>
 
+      <section className="reviews">
+        <div className="elfsight-app-a4c3bfad-bc7b-4b48-aaef-9dbee8cb6c79" data-elfsight-app-lazy></div>
+      </section>
+
       <section className="local">
         <h2></h2>
-        <p>We're a local Calgary business - come see us in person at {CONTACT.address}.</p>
+        <p>We're a local Calgary business!</p>
         <div className="local-images">
           <img src="/images/calgary-map.png" alt="Map of Calgary" />
           <img src="/images/calgary-tower.png" alt="The Calgary Tower" />
@@ -74,15 +78,15 @@ export default function App() {
 
       <footer className="footer">
         <address>
-          <strong>Visit us:</strong> {CONTACT.address}, {CONTACT.city}
-          <br />
+          <strong>Contact us at </strong>
           <a href={`tel:${CONTACT.phone.replace(/\D/g, '')}`}>{CONTACT.phone}</a>
-          {' · '}
+          {'  |  '}
           <a href={`mailto:${CONTACT.email}`}>{CONTACT.email}</a>
         </address>
         <p className="social">
+          <strong>Check us out at </strong>
           <a href={CONTACT.facebook} target="_blank" rel="noopener noreferrer">Facebook</a>
-          {' · '}
+          {' | '}
           <a href={CONTACT.instagram} target="_blank" rel="noopener noreferrer">Instagram</a>
         </p>
         <p className="copyright">© {new Date().getFullYear()} {STORE_NAME}</p>
