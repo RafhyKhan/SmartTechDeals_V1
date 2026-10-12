@@ -59,8 +59,17 @@ export default function App() {
 
       <section className="products">
         <h2>Real products from our store</h2>
-        <p>Every device is photographed, tested and sold by us — what you see is what you get.</p>
+        <p>Every device is photographed, tested and sold by us. What you see is what you get.</p>
         <Slideshow slides={PRODUCT_SLIDES} interval={SLIDE_INTERVAL_MS} className="square" />
+      </section>
+
+      <section className="local">
+        <h2></h2>
+        <p>We're a local Calgary business - come see us in person at {CONTACT.address}.</p>
+        <div className="local-images">
+          <img src="/images/calgary-map.png" alt="Map of Calgary" />
+          <img src="/images/calgary-tower.png" alt="The Calgary Tower" />
+        </div>
       </section>
 
       <footer className="footer">

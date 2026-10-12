@@ -11,11 +11,11 @@ export const FACEBOOK_MARKETPLACE_URL = 'https://www.facebook.com/marketplace/pr
 export const GOOGLE_REVIEWS_URL = 'https://g.page/r/CVdSojxBlk_0EBM/review'
 
 export const DESCRIPTION = [
-  'SmartTech Deals is a family-run Calgary business built on great deals on open-box and pre-owned tech, honest advice, and friendly service.',
-  'Laptops, tablets, phones and accessories — every product is carefully inspected before it is sold, and we help you find the best device per dollar for your needs.',
+  'SmartTech Deals is a local Calgary business built on great deals on open-box and pre-owned tech, honest advice, and friendly service.', 'Check out our Facebook Marketplace products or call us and we can see if we have the right product for you.',
+  'Laptops, tablets, phones and accessories -> every product is carefully inspected before it is sold, and we help you find the best device per dollar for your needs.',
 ]
 
-export const HIGHLIGHTS = ['30-day warranty on all products', '$20 Canada-wide shipping', 'Thousands of happy customers']
+export const HIGHLIGHTS = ['Warranty on all products', 'Local Delivery', 'Thousands of happy customers']
 
 export const SERVICES = ['Laptop repair', 'Antivirus & software', 'Upgrades', 'Prepaid plans from $10/mo']
 
