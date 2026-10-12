@@ -31,5 +31,13 @@ export const CONTACT = {
 // Put store photos in /public/images and list them here. Add more to make the slideshow rotate.
 export const SLIDES = [{ src: '/images/storefront.jpg', alt: 'SmartTech storefront at New Horizon Mall' }]
 
+// Real products sold by the store, shown in the second slideshow.
+export const PRODUCT_SLIDES = [
+  { src: '/images/product-1.jpg', alt: 'Microsoft Surface Laptop with charger' },
+  { src: '/images/product-2.jpg', alt: 'Microsoft Surface Laptop 15" with charger' },
+  { src: '/images/product-3.jpg', alt: 'Microsoft Surface Laptop in platinum with charger' },
+  { src: '/images/product-4.jpg', alt: 'Microsoft Surface Laptop 15" in silver with charger' },
+]
+
 // Time between automatic slide changes, in milliseconds.
 export const SLIDE_INTERVAL_MS = 5000

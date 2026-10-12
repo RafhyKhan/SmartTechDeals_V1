@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 
-export default function Slideshow({ slides, interval }) {
+export default function Slideshow({ slides, interval, className = '' }) {
   const [index, setIndex] = useState(0)
   const [paused, setPaused] = useState(false)
   const count = slides.length
@@ -15,7 +15,7 @@ export default function Slideshow({ slides, interval }) {
 
   return (
     <div
-      className="slideshow"
+      className={`slideshow ${className}`}
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
       aria-roledescription="carousel"

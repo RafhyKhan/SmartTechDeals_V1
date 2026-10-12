@@ -260,6 +260,30 @@ body::before {
   height: 20px;
 }
 
+/* Products */
+.products {
+  text-align: center;
+}
+
+.products h2 {
+  margin: 0;
+  font-size: clamp(1.5rem, 4vw, 2rem);
+  color: var(--navy);
+}
+
+.products p {
+  margin: 8px auto 24px;
+  max-width: 520px;
+  color: var(--muted);
+  font-size: 1.05rem;
+}
+
+.slideshow.square {
+  aspect-ratio: 1 / 1;
+  max-width: 560px;
+  margin: 0 auto;
+}
+
 /* Footer */
 .footer {
   border-top: 1px solid var(--border);

@@ -10,6 +10,7 @@ import {
   SERVICES,
   CONTACT,
   SLIDES,
+  PRODUCT_SLIDES,
   SLIDE_INTERVAL_MS,
 } from './siteConfig.js'
 
@@ -55,6 +56,12 @@ export default function App() {
           </div>
         </section>
       </div>
+
+      <section className="products">
+        <h2>Real products from our store</h2>
+        <p>Every device is photographed, tested and sold by us — what you see is what you get.</p>
+        <Slideshow slides={PRODUCT_SLIDES} interval={SLIDE_INTERVAL_MS} className="square" />
+      </section>
 
       <footer className="footer">
         <address>
